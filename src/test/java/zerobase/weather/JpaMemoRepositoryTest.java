@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
-@Transactional
+@Transactional  // test code 에 Transactional 을 붙이면 수행된 코드를 rollback 처리
 public class JpaMemoRepositoryTest {
 
     @Autowired
